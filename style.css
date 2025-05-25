@@ -331,9 +331,11 @@
         display: none;
     }
  }
- /* ////footer content1 */
- .foot-content{ 
-    height: 80px;
+ /* banner-content///// */
+ .banner-content{ 
+    padding-top:1em;
+    padding-left: 1em;
+    height: 90px;
     width: 100%;
     background-color: black;
     color: #cdcdcd;
@@ -344,24 +346,62 @@
  .foot h4{ 
     padding-right: 160px;
  }
- .content-1{ 
-    font-weight: bold;
-    font-size: 20px;
-    padding-left: 30px;
-    padding-top: 20px;
-    color: black;
+ .btn{
+    padding-inline-end:10px ;
  }
- .content-p{
-    padding-left:30px ;
-    padding-top: 20px;
-    font-size:17px ;
+ 
+ .Parent{
+    display: flex; 
+}
+ 
+.column1, .column2, .column3, .column4{
+    width: 25%;
     color: black;
- }
- .icon{
-    padding-left: 20px;
-    padding-top: 30px;
+}
+.column2, .column3, .column4{
+    line-height: 40px;
+}
+
+.column1 ul{
+    list-style-type: none;
+}
+
+.column2 ul{
+    list-style-type: none;
+}
+
+.column3 ul{
+    list-style-type: none;
+}
+
+.column4 ul{
+    list-style-type: none;
+}
+
+.column1 ul a{
+  text-decoration: none;
+   color: black;
+}
+
+.column2 ul a{
+  text-decoration: none;
+   color: black;
+}
+
+.column3 ul a{
+   text-decoration: none;
+    color: black;
+}
+
+.column4 ul a{
+    text-decoration: none;
+     color: black;
+}
+.column1{
+    padding-top: 10px;
     font-size: 30px;
- }
+}
+
  .fa-wifi{
     padding-left: 20px;
   }
@@ -374,49 +414,21 @@
   .fa-github{
     padding-left:20px;
   }
- .content-2 {
-   
-    height:60vh ;
-    width: 10vw;
-    padding-left:500px;
-    padding-bottom: 300px;
-   display: flex;
-   flex-direction: column;
-   gap:25px;
-    
-  }
-    
-.content-2 a {
-      display: flex;
-      flex-direction: column ;
-      row-gap: 1em;
-      text-decoration: none;
-      justify-content: center;
-      color: black;
-}
-.content-3{
-      height:50vh ;
-     width: 25vw;
-    padding-left:800px;
-    padding-bottom: 500px;
-   display: flex;
-   flex-direction: column;
-   gap:25px;
-    
-}
-.content-3 a {
-      display: flex;
-      flex-direction: column ;
-      row-gap: 1em;
-      text-decoration: none;
-      justify-content: center;
-      color: black;
-}
+  
 
+ 
+
+
+
+
+   
+   
+
+    
 
 
   
    
   
   
-
+ 
